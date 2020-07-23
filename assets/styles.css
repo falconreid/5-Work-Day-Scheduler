@@ -1,0 +1,82 @@
+/* color scheme:
+#2d2d2a - jet black
+#9067c6 - amethyst
+#8d86c9 - middle blue purple
+#cac4ce - lavender grey
+#f7ece1 - linen
+#7ebce6 - aero
+
+
+*/
+
+body {
+  background-color: #2d2d2a;
+  color: #f2f2f2;
+  font-size: 16px;
+}
+
+header,
+footer {
+  background-color: #9067c6;
+  color: #f2f2f2;
+  max-height: 100%;
+  border-radius: 5px;
+}
+
+header {
+  vertical-align: middle;
+  text-align: center;
+  padding: 15px;
+  text-shadow: 2px 2px 7px rgba(0, 0, 0, 1);
+}
+
+main {
+  background-color: #f7ece1;
+  color: #2d2d2d;
+  font-size: 18px;
+}
+
+header h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+.hour .col-md-8,
+.hour .col-md-2 {
+  border: 1px solid #2a2c30 !important;
+  border-radius: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.hour .col-md-8 {
+  text-align: center;
+}
+
+.hour .green {
+  background-color: #77ba99 !important;
+}
+
+table img:hover {
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.75);
+}
+
+table img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.past {
+  background-color: #cac4ce;
+}
+
+.present {
+  background-color: #f7ece1;
+}
+
+.future {
+  background-color: #7ebce6;
+}

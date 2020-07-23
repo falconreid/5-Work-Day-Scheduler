@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS only -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/styles.css" />
+
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <title>Work Day Calendar</title>
+  </head>
+  <body>
+    <wrapper class="container">
+      <header class="container">
+        <h1>Work Day Calendar</h1>
+        <hr />
+        <h4 id="presentDay"></h4>
+      </header>
+      <main class="container">
+        <div class="row hour">
+          <div class="col-md-2 green">Hour</div>
+          <div class="col-md-8 green">Activity / To Do Task</div>
+          <div class="col-md-2 green center">Save/Clear</div>
+        </div>
+        <div class="row hour">
+          <div id="8am" class="col-md-2">8 am</div>
+          <textarea class="col-md-8 description" hour="08"></textarea>
+          <div class="col-md-2 center">
+            <table width="100" border="0" align="center">
+              <tr>
+                <td>
+                  <img
+                    class="svBtn 08"
+                    src="images/saveButton.png"
+                    width="50"
+                    height="50"
+                    alt="click to save"
+                    title="click to save"
+                  />
+                </td>
+                <td>
+                  <img
+                    class="delBtn 08"
+                    src="images/deleteButton.png"
+                    width="50"
+                    height="52"
+                    alt="click to delete"
+                    title="click to delete"
+                  />
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="row hour">
+          <div id="9am" class="col-md-2">9 am</div>
+          <textarea class="col-md-8 description" hour="09"></textarea>
+          <div class="col-md-2 center">
+            <table width="100" border="0" align="center">
+              <tr>
+                <td>
+                  <img
+                    class="svBtn 09"
+                    src="images/saveButton.png"
+                    width="50"
+                    height="50"
+                    alt="click to save"
+                    title="click to save"
+                  />
+                </td>
+                <td>
+                  <img
+                    class="delBtn 09"
+                    src="images/deleteButton.png"
+                    width="50"
+                    height="52"
+                    alt="click to delete"
+                    title="click to delete"
+                  />
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="row hour">
+          <div id="10am" class="col-md-2">10 am</div>
+          <textarea class="col-md-8 description" hour="10"></textarea>
+          <div class="col-md-2 center">
+            <table width="100" border="0" align="center">
+              <tr>
+                <td>
+                  <img
+                    class="svBtn 10"
+                    src="images/saveButton.png"
+                    width="50"
+                    height="50"
+                    alt="click to save"
+                    title="click to save"
+                  />
+                </td>
+                <td>
+                  <img
+                    class="delBtn 10"
+                    src="images/deleteButton.png"
+                    width="50"
+                    height="52"
+                    alt="click to delete"
+                    title="click to delete"
+                  />
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="row hour">
+          <div id="11am" class="col-md-2">11 am</div>
+          <textarea class="col-md-8 description" hour="11"></textarea>
+          <div class="col-md-2 center">
+            <table width="100" border="0" align="center">
+              <tr>
+                <td>
+                  <img
+                    class="svBtn 11"
+                    src="images/saveButton.png"
+                    width="50"
+                    height="50"
+                    alt="click to save"
+                    title="click to save"
+                    hour="11"
+                  />
+                </td>
+                <td>
+                  <img
+                    class="delBtn 11"
+                    src="images/deleteButton.png"
+                    width="50"
+                    height="52"
+                    alt="click to delete"
+                    title="click to delete"
+                  />
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="row hour">
+          <div id="12pm" class="col-md-2">12 pm</div>
+          <textarea class="col-md-8 description" hour="12"></textarea>
+          <div class="col-md-2 center">
+            <table width="100" border="0" align="center">
+              <tr>
+                <td>
+                  <img
+                    class="svBtn 12"
+                    src="images/saveButton.png"
+                    width="50"
+                    height="50"
+                    alt="click to save"
+                    title="click to save"
+                  />
+                </td>
+                <td>
+                  <img
+                    class="delBtn 12"
+                    src="images/deleteButton.png"
+                    width="50"
+                    height="52"
+                    alt="click to delete"
+                    title="click to delete"
+                  />
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="row hour">
+          <div id="1pm" class="col-md-2">1 pm</div>
+          <textarea class="col-md-8 description" hour="13"></textarea>
+          <div class="col-md-2 center">
+            <table width="100" border="0" align="center">
+              <tr>
+                <td>
+                  <img
+                    class="svBtn 13"
+                    src="images/saveButton.png"
+                    width="50"
+                    height="50"
+                    alt="click to save"
+                    title="click to save"
+                  />
+                </td>
+                <td>
+                  <img
+                    class="delBtn 13"
+                    src="images/deleteButton.png"
+                    width="50"
+                    height="52"
+                    alt="click to delete"
+                    title="click to delete"
+                  />
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="row hour">
+          <div id="2pm" class="col-md-2">2 pm</div>
+          <textarea class="col-md-8 description" hour="14"></textarea>
+          <div class="col-md-2 center">
+            <table width="100" border="0" align="center">
+              <tr>
+                <td>
+                  <img
+                    class="svBtn 14"
+                    src="images/saveButton.png"
+                    width="50"
+                    height="50"
+                    alt="click to save"
+                    title="click to save"
+                  />
+                </td>
+                <td>
+                  <img
+                    class="delBtn 14"
+                    src="images/deleteButton.png"
+                    width="50"
+                    height="52"
+                    alt="click to delete"
+                    title="click to delete"
+                  />
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="row hour">
+          <div id="3pm" class="col-md-2">3 pm</div>
+          <textarea class="col-md-8 description" hour="15"></textarea>
+          <div class="col-md-2 center">
+            <table width="100" border="0" align="center">
+              <tr>
+                <td>
+                  <img
+                    class="svBtn 15"
+                    src="images/saveButton.png"
+                    width="50"
+                    height="50"
+                    alt="click to save"
+                    title="click to save"
+                  />
+                </td>
+                <td>
+                  <img
+                    class="delBtn 15"
+                    src="images/deleteButton.png"
+                    width="50"
+                    height="52"
+                    alt="click to delete"
+                    title="click to delete"
+                  />
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="row hour">
+          <div id="4pm" class="col-md-2">4 pm</div>
+          <textarea class="col-md-8 description" hour="16"></textarea>
+          <div class="col-md-2 center">
+            <table width="100" border="0" align="center">
+              <tr>
+                <td>
+                  <img
+                    class="svBtn 16"
+                    src="images/saveButton.png"
+                    width="50"
+                    height="50"
+                    alt="click to save"
+                    title="click to save"
+                  />
+                </td>
+                <td>
+                  <img
+                    class="delBtn 16"
+                    src="images/deleteButton.png"
+                    width="50"
+                    height="52"
+                    alt="click to delete"
+                    title="click to delete"
+                  />
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="row hour">
+          <div id="5pm" class="col-md-2">5 pm</div>
+          <textarea class="col-md-8 description" hour="17"></textarea>
+          <div class="col-md-2 center">
+            <table width="100" border="0" align="center">
+              <tr>
+                <td>
+                  <img
+                    class="svBtn 17"
+                    src="images/saveButton.png"
+                    width="50"
+                    height="50"
+                    alt="click to save"
+                    title="click to save"
+                  />
+                </td>
+                <td>
+                  <img
+                    class="delBtn 17"
+                    src="images/deleteButton.png"
+                    width="50"
+                    height="52"
+                    alt="click to delete"
+                    title="click to delete"
+                  />
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="row hour">
+          <div id="6pm" class="col-md-2">6 pm</div>
+          <textarea class="col-md-8 description" hour="18"></textarea>
+          <div class="col-md-2 center">
+            <table width="100" border="0" align="center">
+              <tr>
+                <td>
+                  <img
+                    class="svBtn 18"
+                    src="images/saveButton.png"
+                    width="50"
+                    height="50"
+                    alt="click to save"
+                    title="click to save"
+                  />
+                </td>
+                <td>
+                  <img
+                    class="delBtn 18"
+                    src="images/deleteButton.png"
+                    width="50"
+                    height="52"
+                    alt="click to delete"
+                    title="click to delete"
+                  />
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </main>
+      <footer class="container"></footer>
+    </wrapper>
+    <!-- Moment.js CDN request-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment-with-locales.min.js"></script>
+    <!-- JS, Popper.js, and jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <!-- local javascript source-->
+    <script src="scripts/script.js"></script>
+  </body>
+</html>

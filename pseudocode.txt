@@ -1,0 +1,15 @@
+create html layout with time, entry, save/delete sections, css and script calls
+
+establish present time
+
+create function to create entry fields
+create function to save entries
+create function to delete entries
+
+create function to highlight current hour
+create function to grey out previous hours (except prior to work hours).
+create function to show future hours.
+
+create function to determine which div matches current time.
+
+

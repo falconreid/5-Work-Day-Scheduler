@@ -21,6 +21,25 @@ footer {
   color: #f2f2f2;
   max-height: 100%;
   border-radius: 5px;
+
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+  margin-bottom: 3px;
+}
+
+footer {
+  background-color: #9067c6;
+  color: #f2f2f2;
+  max-height: 100%;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+  margin-top: 3px;
+}
+a {
+  color: #cac4ce !important;
 }
 
 header {
@@ -36,6 +55,10 @@ main {
   font-size: 18px;
 }
 
+.container {
+  border-radius: 5px;
+}
+
 header h1 {
   text-align: center;
   padding: 10px;
@@ -45,8 +68,8 @@ header h1 {
 .hour .col-md-2 {
   border: 1px solid #2a2c30 !important;
   border-radius: 5px;
-  margin-top: 2px;
-  margin-bottom: 2px;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 
 .hour .col-md-8 {
